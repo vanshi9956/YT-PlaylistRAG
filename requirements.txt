@@ -1,9 +1,9 @@
 fastapi
 uvicorn
-sentence_transformers
-qdrant_client
-groq
+jinja2
 python-dotenv
-googleapiclient.discovery
-youtube_transcript_api
-langchain_text_splitters
+google-api-python-client
+youtube-transcript-api
+sentence-transformers
+qdrant-client
+groq
