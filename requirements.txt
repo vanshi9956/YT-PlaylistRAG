@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sentence_transformers
+qdrant_client
+groq
+python-dotenv
+googleapiclient.discovery
+youtube_transcript_api
+langchain_text_splitters
