@@ -31,7 +31,7 @@ Pass matched chunks to LLM → returns video link + timestamp + short summary
 - **Python** (obviously)
 - **YouTube Data API v3** — to get playlist metadata (video IDs, titles)
 - **youtube-transcript-api** — to pull transcripts without downloading audio
-- **sentence-transformers** (`all-MiniLM-L6-v2`) — for generating embeddings
+- **sentence-transformers** (`paraphrase-multilingual-mpnet-base-v2`) — for generating embeddings I use this model because transcripts are in hindi.
 - **Qdrant** — vector database, stores embeddings + payload (payload = metadata basically, that's just what Qdrant calls it)
 - **Groq API** (`openai/gpt-oss-120b`) — LLM that generates the final answer/summary from retrieved chunks
 - `python-dotenv` — for keeping API keys out of the code
